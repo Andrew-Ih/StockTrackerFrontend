@@ -6,6 +6,16 @@ StockTracker is a Next.js-based frontend application deployed on Azure Static We
 	
 To view this project live, please visit the link: https://purple-ocean-0e575860f.6.azurestaticapps.net/
 
+## Screenshots
+
+### 1. Stock Search
+
+<img src="src/app/img/stockSearch.png" alt="Stock Search UI" width="600"/>
+
+### 2. Top & Worst Performers
+
+<img src="src/app/img/stockPerformers.png" alt="Stock Performers UI" width="600"/>
+
 ## 🚀 Technologies Used
 
 - **Next.js** – Framework for building the React-based frontend.
