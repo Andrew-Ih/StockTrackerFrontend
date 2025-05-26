@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#stockDetails {
+    display: flex;
+    justify-content: center;
+}
+
+
+#stockPerformers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#performers{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.stockContainer {
+    /* background-color: lightgrey; */
+    display: flex;
+    flex-direction: column; /* Stacks stock cards vertically */
+    align-items: center; /* Centers the cards */
+    gap: 10px; /* Adds spacing between cards */
+    padding: 10px 0px;
+}
+
+/* Stock card: row format */
+.stock-card {
+    display: flex;
+    flex-direction: row; /* Arranges elements in a row */
+    justify-content: space-between; /* Ensures content is evenly spaced */
+    align-items: center; /* Aligns items in the center */
+    background: white;
+    padding: 15px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out; 
+}
+
+.stock-card:hover {
+    transform: scale(1.05); /* Slight enlargement */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Enhances shadow for effect */
+}
+
+/* Styling for individual stock details */
+.stock-card h3 {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.stock-card p {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.positiveChange {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.negativeChange {
+    color: red;
+    font-weight: bold;
+}
+
+.volume {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.borderLine {
+    background-color: grey;
+    width: 0.05%;
+    align-self: stretch;
+}
