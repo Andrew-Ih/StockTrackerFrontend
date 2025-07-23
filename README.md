@@ -16,6 +16,8 @@ To view this project live, please visit the link: https://purple-ocean-0e575860f
 
 <img src="src/app/img/stockPerformers.png" alt="Stock Performers UI" width="600"/>
 
+### Link to StockTrackerBackend: https://github.com/Andrew-Ih/StockTrackerBackend
+
 ## 🚀 Technologies Used
 
 - **Next.js** – Framework for building the React-based frontend.
