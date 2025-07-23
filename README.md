@@ -2,10 +2,10 @@
 
 StockTracker is a Next.js-based frontend application deployed on Azure Static Web Apps that fetches and displays stock performance data. It connects to an Azure Function App with three API endpoints to retrieve stock details, top performers, and worst performers of the day.
 
-## Live Project Display
+<!--## Live Project Display
 	
 To view this project live, please visit the link: https://purple-ocean-0e575860f.6.azurestaticapps.net/
-
+-->
 ## Screenshots
 
 ### 1. Stock Search
